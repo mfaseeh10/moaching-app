@@ -1,0 +1,13 @@
+import 'package:equatable/equatable.dart';
+import 'package:flutter/material.dart';
+import 'package:moaching_app/utils/storage.dart';
+import 'package:moaching_app/workout_module/views/exercise/model/exercise_detailed_model.dart';
+import 'package:moaching_app/workout_module/views/exercise/model/model.dart';
+import 'package:moaching_app/workout_module/views/exercise/repository/exercise_repository.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'dart:developer';
+import 'package:moaching_app/workout_module/views/training_program/models/models.dart';
+import 'package:moaching_app/workout_module/views/training_program/repository/repository.dart';
+part 'exercises_bloc.dart';
+part 'exercises_event.dart';
+part 'exercises_state.dart';
